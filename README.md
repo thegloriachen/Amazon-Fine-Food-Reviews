@@ -4,11 +4,14 @@
 本專案針對 Amazon 美食評論進行情緒分類，將評論分為正向（Positive）或負向（Negative）。  
 專案採用 Python 與機器學習方法，利用兩種文字向量化技術（TF-IDF、Word2Vec）搭配隨機森林（Random Forest）進行模型訓練與預測，並透過 K-Fold Cross-Validation 評估模型效能。
 
-## 🔧 使用技術與工具
+## 🔧 使用技術
   - Pandas (Data processing and manipulation)
   - Scikit-learn（Machine learning algorithms, feature vectorization, cross-validation）
   - Gensim（Word2Vec向量模型）
   - 正規表示式（re）、文字處理（string）
+
+## 💻Project Source Codes:
+[Amazon-Fine-Food-Reviews](https://github.com/thegloriachen/Amazon-Fine-Food-Reviews/blob/main/Amazon-Fine-Food-Reviews.py)
 
 ## 🚀 專案流程說明
 ### 1️⃣ 資料預處理（Data Preprocessing）
